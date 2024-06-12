@@ -6,7 +6,6 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "4"
           memory: "8G"
     environment:
       eula: accept
