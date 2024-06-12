@@ -1,3 +1,5 @@
+name: ascript-lab
+
 services:
   speechtotext:
     container_name: ascript-lab-speechtotext
