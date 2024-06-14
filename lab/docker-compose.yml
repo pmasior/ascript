@@ -25,8 +25,8 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - type: volume
-        source: ascript-lab-intermediate
+      - type: bind
+        source: ../data/intermediate
         target: /intermediate
       - type: volume
         source: ascript-lab-speechclidata
@@ -36,5 +36,4 @@ networks:
   ascript-lab:
 
 volumes:
-  ascript-lab-intermediate:
   ascript-lab-speechclidata:
